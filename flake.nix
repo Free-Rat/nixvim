@@ -7,24 +7,11 @@
     flake-parts.url = "github:hercules-ci/flake-parts";
   };
 
-  outputs = {
-    nixvim,
-    flake-parts,
-    ...
-  } @ inputs:
+  outputs = { nixvim, flake-parts, nixpkgs, ... } @inputs:
     flake-parts.lib.mkFlake {inherit inputs;} {
-      systems = [
-        "x86_64-linux"
-        "aarch64-linux"
-        "x86_64-darwin"
-        "aarch64-darwin"
-      ];
-
-      perSystem = {
-        pkgs,
-        system,
-        ...
-      }: let
+      systems = nixpkgs.lib.systems.flakeExposed;
+      perSystem = { pkgs, system, ...  }: 
+     let
         nixvimLib = nixvim.lib.${system};
         nixvim' = nixvim.legacyPackages.${system};
         nixvimModule = {
@@ -45,6 +32,7 @@
         packages = {
           # Lets you run `nix run .` to start nixvim
           default = nvim;
+	  nvim = nvim;
         };
       };
     };
