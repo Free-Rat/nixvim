@@ -14,5 +14,8 @@
     ./which-key.nix
   ];
 
-  clipboard.providers.xclip.enable = true;
+  clipboard = {
+	register = "unnamedplus";
+	providers.xclip.enable = true;
+  };
 }
