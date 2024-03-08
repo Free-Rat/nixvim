@@ -74,12 +74,12 @@
 			hls = {
 				enable = false;
 			};
-# html = {
-#   enable = true;
-# };
-# cssls = {
-#   enable = true;
-# };
+			html = {
+				enable = true;
+			};
+			cssls = {
+				enable = true;
+			};
 # tsserver = {
 #   enable = true;
 # };
