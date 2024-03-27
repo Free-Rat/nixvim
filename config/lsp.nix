@@ -33,6 +33,9 @@
 			nil_ls = {
 				enable = false;
 			};
+			zls = {
+				enable = true;
+			};
 			sourcekit = {
 				enable = false;
 			};
