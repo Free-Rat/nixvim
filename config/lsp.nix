@@ -40,7 +40,7 @@
 				enable = false;
 			};
 			java-language-server = {
-				enable = false;
+				enable = true;
 			};
 # gopls = {
 #   enable = true;
@@ -72,7 +72,7 @@
 				enable = true;
 			};
 			pyright = {
-				enable = false;
+				enable = true;
 			};
 			hls = {
 				enable = false;
