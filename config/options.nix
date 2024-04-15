@@ -5,7 +5,7 @@
 
 		globals.mapleader = " ";
 
-	    options = {
+	    opts = {
 		    mouse = "a";
 		    showtabline = 2;
 		    shiftwidth = 4;

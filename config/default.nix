@@ -12,6 +12,7 @@
     ./surround.nix
     ./treesitter.nix
     ./which-key.nix
+	./qmk.nix
   ];
 
   clipboard = {

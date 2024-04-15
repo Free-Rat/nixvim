@@ -2,8 +2,10 @@
   # colorschemes.oxocarbon.enable = true;
   colorschemes.kanagawa = {
 	  enable = true;
-	  theme = "dragon";
-	  transparent = true;
+	  settings = {
+	  	theme = "dragon";
+	  	transparent = true;
+	  };
   };
 
   colorschemes.oxocarbon = {
