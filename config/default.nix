@@ -6,6 +6,7 @@
     ./comment-nvim.nix
     ./copilot.nix
     ./lsp.nix
+	./cmp.nix
     ./luasnip.nix
     ./markdown-preview.nix
     ./options.nix
