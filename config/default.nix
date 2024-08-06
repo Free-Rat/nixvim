@@ -4,7 +4,7 @@
     ./bufferline.nix
     ./colorscheme.nix
     ./comment-nvim.nix
-    ./copilot.nix
+    # ./copilot.nix
     ./lsp.nix
 	./cmp.nix
     ./luasnip.nix
