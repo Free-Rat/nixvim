@@ -2,38 +2,41 @@
 	plugins.lsp = {
 		enable = true;
 		servers = {
-			nixd = {
+			nixd = { # nix
 				enable = true;
 			};
-			nil-ls = {
+			nil-ls = { # nix 
 				enable = false;
 			};
-			zls = {
+			zls = { # zig
 				enable = true;
 			};
-			sourcekit = {
+			sourcekit = { # swift
 				enable = false;
 			};
 			java-language-server = {
 				enable = false;
 			};
-# gopls = {
-#   enable = true;
-#   installLanguageServer = true;
-#   extraOptions = {
-#     settings = {
-#       experimentalPostfixCompletions = true;
-#       analyses = {
-#         unusedparams = true;
-#         shadow = true;
-#       };
-#       staticcheck = true;
-#     };
-#     init_options = {
-#       usePlaceholders = true;
-#     };
-#   };
-# };
+			lexical = { # elixir
+				enable = true;
+			};
+			gopls = { # go
+				enable = true;
+				# installLanguageServer = true;
+				# extraOptions = {
+				# 	settings = {
+				# 		experimentalPostfixCompletions = true;
+				# 		analyses = {
+				# 			unusedparams = true;
+				# 			shadow = true;
+				# 		};
+				# 		staticcheck = true;
+				# 	};
+				# 	init_options = {
+				# 		usePlaceholders = true;
+				# 	};
+				# };
+			};
 			rust-analyzer = {
 				enable = true;
 				installCargo = false;
