@@ -22,20 +22,9 @@
 			};
 			gopls = { # go
 				enable = true;
-				# installLanguageServer = true;
-				# extraOptions = {
-				# 	settings = {
-				# 		experimentalPostfixCompletions = true;
-				# 		analyses = {
-				# 			unusedparams = true;
-				# 			shadow = true;
-				# 		};
-				# 		staticcheck = true;
-				# 	};
-				# 	init_options = {
-				# 		usePlaceholders = true;
-				# 	};
-				# };
+			};
+			csharp-ls = {
+				enable = true;
 			};
 			rust-analyzer = {
 				enable = true;
