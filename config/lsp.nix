@@ -9,7 +9,7 @@
 				enable = false;
 			};
 			zls = { # zig
-				enable = true;
+				enable = false;
 			};
 			sourcekit = { # swift
 				enable = false;
@@ -18,16 +18,16 @@
 				enable = false;
 			};
 			lexical = { # elixir
-				enable = true;
+				enable = false;
 			};
 			gopls = { # go
-				enable = true;
+				enable = false;
 			};
 			csharp-ls = {
-				enable = true;
+				enable = false;
 			};
 			rust-analyzer = {
-				enable = true;
+				enable = false;
 				installCargo = false;
 				installRustc = false;
 			};
@@ -44,10 +44,10 @@
 				enable = false;
 			};
 			html = {
-				enable = true;
+				enable = false;
 			};
 			cssls = {
-				enable = true;
+				enable = false;
 			};
 # tsserver = {
 #   enable = true;
