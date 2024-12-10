@@ -5,7 +5,7 @@
 			nixd = { # nix
 				enable = true;
 			};
-			nil-ls = { # nix 
+			nil_ls = { # nix 
 				enable = false;
 			};
 			zls = { # zig
@@ -14,7 +14,7 @@
 			sourcekit = { # swift
 				enable = false;
 			};
-			java-language-server = {
+			java_language_server = {
 				enable = false;
 			};
 			lexical = { # elixir
@@ -23,10 +23,10 @@
 			gopls = { # go
 				enable = false;
 			};
-			csharp-ls = {
+			csharp_ls = {
 				enable = false;
 			};
-			rust-analyzer = {
+			rust_analyzer = {
 				enable = false;
 				installCargo = false;
 				installRustc = false;
