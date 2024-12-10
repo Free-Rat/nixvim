@@ -1,7 +1,7 @@
 {pkgs, ... }: {
   # colorschemes.oxocarbon.enable = true;
   colorschemes.kanagawa = {
-	  enable = true;
+	  enable = false;
 	  settings = {
 	  	theme = "dragon";
 	  	transparent = true;
@@ -9,7 +9,7 @@
   };
 
   colorschemes.oxocarbon = {
-	  enable = false;
+	  enable = true;
 	  package = pkgs.vimPlugins.oxocarbon-nvim;
 	};
 }
